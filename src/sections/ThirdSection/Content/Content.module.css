@@ -1,0 +1,94 @@
+.content {
+  width: calc(100% - 100%/5 - 5%); /* изменить на 6 когда добавят китай*/
+  transform: translate(calc(-100%));
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  padding: 2% 2%;
+  transition: 0.5s transform ease;
+  will-change: transform;
+  overflow: auto;
+}
+
+.info_wrapper {
+
+}
+
+.info_img_block {
+  margin-top: 2%;
+  position: relative;
+}
+.info_img {
+  width: 100%;
+}
+.info_block {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  flex-basis: 59%;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.info_title {
+  font-family: 'HelveticaNeueMedium', sans-serif;
+  font-weight: 500;
+  font-size: 160%;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.info_text {
+  font-weight: 400;
+  font-size: 125%;
+  line-height: 115%;
+  color: #BEBEBE;
+}
+.info_btn {
+  font-size: 130%;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #252525;
+  padding: 1% 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+  min-width: 23%;
+  background: linear-gradient(180deg, #DDEAFC 0%, #FCFCFF 100%);
+  box-shadow: 0px 4px 30px rgba(118, 167, 247, 0.63);
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.info_btn_ios {
+  display: block;
+  padding-top: 7px;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+  .info_title {
+    font-family: 'HelveticaNeueMedium', sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+  .info_text {
+    font-weight: 400;
+    font-size: 80%;
+    line-height: 115%;
+    color: #BEBEBE;
+  }
+  .info_btn {
+    font-size: 11px;
+    line-height: 8px;
+    padding: 13px 10px 12px 10px;
+  }
+}
