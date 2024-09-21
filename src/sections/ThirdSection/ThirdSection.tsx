@@ -5,6 +5,7 @@ import IN from '../../assets/images/section-three-IN.jpeg'
 import CN from '../../assets/images/section-three-CN.jpeg'
 import CS from '../../assets/images/section-three-CS.jpeg'
 import ZA from '../../assets/images/section-three-ZA.jpeg'
+import TN from '../../assets/images/section-three-TN.jpg'
 import CountryItem from './CountryItem/CountryItem'
 // import Footer from './Footer/Footer'
 import Content from './Content/Content'
@@ -19,6 +20,7 @@ const countries = [
   { img: BY, name: "беларусь" },
   { img: CS, name: "сербия" },
   { img: CN, name: "китай" },
+  { img: TN, name: "тунис" },
 ]
 
 export const ThirdSection = observer(() => {

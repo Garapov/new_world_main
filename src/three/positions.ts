@@ -44,6 +44,11 @@ const positions: IPlanetState[] = [
     rotation: { x: -.35, y: 11.933, z: 0 }
   },
   {
+    state: modal.TUNIS,
+    position: { x: 0, y: 0, z: 6 },
+    rotation: { x: .29, y: 10.76, z: 0 }
+  },
+  {
     position: { x: 0, y: 3.4, z: 3 },
     rotation: { x: 0, y: 13.0, z: 0 }
   }

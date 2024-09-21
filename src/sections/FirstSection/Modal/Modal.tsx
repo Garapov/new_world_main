@@ -44,6 +44,8 @@ export const Modal = observer(() => {
         return 'ЮАР'
       case (modal.BRAZIL):
         return 'Бразилия'
+      case (modal.TUNIS):
+        return 'Тунис'
     }
   }, [modalType])
 
@@ -83,6 +85,8 @@ export const Modal = observer(() => {
         return 'https://vk.com/video-24199209_456302464?t=12s'
       case (modal.BRAZIL):
         return 'https://vk.com/video-24199209_456302864?t=47s'
+      case (modal.TUNIS):
+        return 'https://vk.com/video-24199209_456302864?t=47s'
     }
   }, [modalType])
 
@@ -104,6 +108,8 @@ export const Modal = observer(() => {
         return '/africa/'
       case (modal.BRAZIL):
         return '/brazil/'
+      case (modal.TUNIS):
+        return '/tunis/'
     }
   }, [modalType])
 
