@@ -1,11 +1,13 @@
 .country {
   display: inline-block;
-  width: calc(100%/7);
+  width: calc(100%/9);
   cursor: pointer;
 }
 .img {
   height: 100vh;
   width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 .img_block {
   position: relative;

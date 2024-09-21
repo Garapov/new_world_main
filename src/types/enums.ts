@@ -7,6 +7,8 @@ enum modal {
   SOUTH_AFRICA = 'south-africa',
   BRAZIL = 'brazil',
   TUNIS = 'tunis',
+  KUBA = 'kuba',
+  EGYPT = 'egypt',
 }
 
 enum content {
@@ -18,6 +20,8 @@ enum content {
   SERBIA = 4,
   CHINA = 5,
   TUNIS = 6,
+  KUBA = 7,
+  EGYPT = 8,
 }
 
 export {

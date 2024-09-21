@@ -80,7 +80,7 @@ export const Main = observer(() => {
   }, [])
 
   const clickButton = (top: boolean) => {
-    if (State.getStep() === 0 || State.getStep() >= 9) return
+    if (State.getStep() === 0 || State.getStep() >= 12) return
     if (State.getModalActive()) return
     if (State.isAnimation()) return
     if (!top) State.plusStep()
@@ -97,7 +97,7 @@ export const Main = observer(() => {
       setTimeout(() => { State.setStep(MAX_STEP - 1) }, 100)
     }
   }
-  const planetSteps = State.getStep() > 0 && State.getStep() < 9;
+  const planetSteps = State.getStep() > 0 && State.getStep() < 12;
 
   const bottomButtonStyle = State.getStep() === 0 ? 'show-button' : 'show-button';
   const buttonStyle = planetSteps && State.getModalActive() === false ? 'show-button' : 'hide-button';
