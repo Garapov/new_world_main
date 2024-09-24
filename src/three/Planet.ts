@@ -30,7 +30,7 @@ const EASING = 'easeInOutQuad';
 const ZOOM: Vector3 = {
   x: -.7,
   y: -.2,
-  z: 13
+  z: 14
 }
 
 class Planet {
