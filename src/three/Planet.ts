@@ -17,6 +17,8 @@ import brazil from '../assets/images/brazil.png';
 import tunis from '../assets/images/tunis.png';
 import kuba from '../assets/images/kuba.png';
 import egypt from '../assets/images/egypt.png';
+import uae from '../assets/images/uae.png';
+import indonesia from '../assets/images/indonesia.png';
 import point from '../assets/images/point.png';
 
 import EarthSpecularMap from '../assets/images/8k_earth_specular_map.jpg';
@@ -86,6 +88,8 @@ class Planet {
     this._load.image('tunis', tunis);
     this._load.image('kuba', kuba);
     this._load.image('egypt', egypt);
+    this._load.image('uae', uae);
+    this._load.image('indonesia', indonesia);
     this._load.image('point', point);
     
     // this._load.image('EarthDayMap', EarthDayMap);

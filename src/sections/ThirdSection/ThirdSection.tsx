@@ -8,6 +8,8 @@ import ZA from '../../assets/images/section-three-ZA.jpeg'
 import TN from '../../assets/images/section-three-TN.jpg'
 import KB from '../../assets/images/section-three-KB.jpg'
 import EG from '../../assets/images/section-three-EG.jpg'
+import UAE from '../../assets/images/section-three-UAE.jpg'
+import IND from '../../assets/images/section-three-IND.jpg'
 import CountryItem from './CountryItem/CountryItem'
 // import Footer from './Footer/Footer'
 import Content from './Content/Content'
@@ -25,6 +27,8 @@ const countries = [
   { img: TN, name: "тунис" },
   { img: KB, name: "куба" },
   { img: EG, name: "египет" },
+  { img: UAE, name: "ОАЭ" },
+  { img: IND, name: "индонезия" },
 ]
 
 export const ThirdSection = observer(() => {

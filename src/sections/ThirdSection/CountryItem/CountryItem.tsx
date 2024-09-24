@@ -23,7 +23,7 @@ export const CountryItem = observer(({ img, name, index }: ICountryItemProps) =>
     transform: `translateZ(0) translateX(calc(100% * ${index} * -1))`,
     transition: '0.5s transform ease',
   } : State.getActiveCountryIndex() < index && State.getActiveCountryIndex() !== -1 ? {
-    transform: `translateZ(0) translateX(calc(100% * (${9 - State.getActiveCountryIndex()}) - 130%))`,
+    transform: `translateZ(0) translateX(calc(100% * (${11 - State.getActiveCountryIndex()}) - 140%))`,
     transition: '0.5s transform ease',
   } : {}
   const flip = State.getActiveCountryIndex() === index;

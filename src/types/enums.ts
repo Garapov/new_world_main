@@ -9,6 +9,8 @@ enum modal {
   TUNIS = 'tunis',
   KUBA = 'kuba',
   EGYPT = 'egypt',
+  UAE = 'uae',
+  INDONESIA = 'indonesia',
 }
 
 enum content {
@@ -22,6 +24,8 @@ enum content {
   TUNIS = 6,
   KUBA = 7,
   EGYPT = 8,
+  UAE = 9,
+  INDONESIA = 10,
 }
 
 export {

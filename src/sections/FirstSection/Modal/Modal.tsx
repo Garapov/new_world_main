@@ -50,6 +50,10 @@ export const Modal = observer(() => {
         return 'Куба'
       case (modal.EGYPT):
         return 'Египет'
+      case (modal.UAE):
+        return 'ОАЭ'
+      case (modal.INDONESIA):
+        return 'Индонезия'
     }
   }, [modalType])
 
@@ -95,6 +99,10 @@ export const Modal = observer(() => {
         return 'https://vk.com/video-24199209_456302864?t=47s'
       case (modal.EGYPT):
         return 'https://vk.com/video-24199209_456302864?t=47s'
+      case (modal.UAE):
+        return 'https://vk.com/video-24199209_456302864?t=47s'
+      case (modal.INDONESIA):
+        return 'https://vk.com/video-24199209_456302864?t=47s'
     }
   }, [modalType])
 
@@ -122,6 +130,10 @@ export const Modal = observer(() => {
         return '/kuba/'
       case (modal.EGYPT):
         return '/egypt/'
+      case (modal.UAE):
+        return '/uae/'
+      case (modal.INDONESIA):
+        return '/indonesia/'
     }
   }, [modalType])
 

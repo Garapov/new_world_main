@@ -3,16 +3,17 @@ import { modal } from '../types/enums';
 const positions: IPlanetState[] = [
   {
     position: { x: 0, y: -1, z: 15 },
-    rotation: { x: 0, y: 3.3, z: 0 }
-  },
-  {
-    position: { x: 0, y: 0, z: 0 },
     rotation: { x: 0, y: 6.3, z: 0 }
   },
-  {
-    position: { x: 0, y: 0, z: 0 },
-    rotation: { x: 0, y: 8.3, z: 0 }
-  },
+  // {
+  //   position: { x: 0, y: 0, z: 0 },
+  //   rotation: { x: 0, y: 6.3, z: 0 }
+  // },
+  // {
+  //   position: { x: 0, y: 0, z: 0 },
+  //   rotation: { x: 0, y: 8.3, z: 0 }
+  // },
+  
   {
     state: modal.CHINA,
     position: { x: 0, y: 0, z: 6 },
@@ -57,6 +58,16 @@ const positions: IPlanetState[] = [
     state: modal.EGYPT,
     position: { x: 0, y: 0, z: 6 },
     rotation: { x: .42, y: 10.62, z: 0 }
+  },
+  {
+    state: modal.UAE,
+    position: { x: 0, y: 0, z: 6 },
+    rotation: { x: .32, y: 10.1, z: 0 }
+  },
+  {
+    state: modal.INDONESIA,
+    position: { x: 0, y: 0, z: 6 },
+    rotation: { x: -0.2, y: 8.9, z: 0 }
   },
   {
     position: { x: 0, y: 3.4, z: 3 },
