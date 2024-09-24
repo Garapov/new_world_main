@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.eb3dfe66.css",
-    "main.js": "./static/js/main.0f912639.js",
+    "main.js": "./static/js/main.28b5ab94.js",
     "static/media/8k_earth_clouds.jpg": "./static/media/8k_earth_clouds.08fcd80007fae8fc7170.jpg",
     "static/media/map.png": "./static/media/map.f63a5d10a14771196295.png",
     "static/media/8k_earth_specular_map.jpg": "./static/media/8k_earth_specular_map.7b4efa59933b470e3776.jpg",
@@ -36,10 +36,10 @@
     "static/media/egypt.png": "./static/media/egypt.4457954d7aaeff193d7c.png",
     "index.html": "./index.html",
     "main.eb3dfe66.css.map": "./static/css/main.eb3dfe66.css.map",
-    "main.0f912639.js.map": "./static/js/main.0f912639.js.map"
+    "main.28b5ab94.js.map": "./static/js/main.28b5ab94.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3dfe66.css",
-    "static/js/main.0f912639.js"
+    "static/js/main.28b5ab94.js"
   ]
 }
