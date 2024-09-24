@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.81a0e390.css",
-    "main.js": "./static/js/main.329252ac.js",
+    "main.css": "./static/css/main.eb3dfe66.css",
+    "main.js": "./static/js/main.0f912639.js",
     "static/media/8k_earth_clouds.jpg": "./static/media/8k_earth_clouds.08fcd80007fae8fc7170.jpg",
     "static/media/map.png": "./static/media/map.f63a5d10a14771196295.png",
     "static/media/8k_earth_specular_map.jpg": "./static/media/8k_earth_specular_map.7b4efa59933b470e3776.jpg",
     "static/media/section-three-CH-info.jpg": "./static/media/section-three-CH-info.94790acedad11fa3fa38.jpg",
     "static/media/section-three-EG.jpg": "./static/media/section-three-EG.c3a91adf0e663cf91a6a.jpg",
+    "static/media/section-three-IND.jpg": "./static/media/section-three-IND.f10cf6e84276af7eb407.jpg",
     "static/media/section-three-ZA-info.jpeg": "./static/media/section-three-ZA-info.31605e08c61875987e4d.jpeg",
     "static/media/section-three-SС-info.jpeg": "./static/media/section-three-SС-info.a5c1b2b669b0ada663c5.jpeg",
     "static/media/section-three-TN.jpg": "./static/media/section-three-TN.20b6bdf5119e25ad404b.jpg",
     "static/media/section-three-KB.jpg": "./static/media/section-three-KB.269da549cc4207fa5c1d.jpg",
+    "static/media/section-three-UAE.jpg": "./static/media/section-three-UAE.6adb8cacdf6dca6ad43c.jpg",
     "static/media/section-three-BY-info.jpg": "./static/media/section-three-BY-info.79102259b307992e9892.jpg",
     "static/media/section-three-BR-info.jpg": "./static/media/section-three-BR-info.f284598c601a52d80aaa.jpg",
     "static/media/MonacoRegular.ttf": "./static/media/MonacoRegular.58102a1c5cc9b8b664b7.ttf",
@@ -26,17 +28,18 @@
     "static/media/india.png": "./static/media/india.5be23512a84f7a507932.png",
     "static/media/section-three-IN.jpeg": "./static/media/section-three-IN.7a46040ab5b7d1bf332a.jpeg",
     "static/media/south-africa.png": "./static/media/south-africa.aacc20cd031027b63184.png",
+    "static/media/indonesia.png": "./static/media/indonesia.94f01e7f19d374f58a57.png",
     "static/media/belarus.png": "./static/media/belarus.c53d9556d0eca5b77935.png",
     "static/media/HelveticaNeueRegular.otf": "./static/media/HelveticaNeueRegular.84fb498ef9ef3d096f71.otf",
     "static/media/serbia.png": "./static/media/serbia.f52e10985286a3ca5312.png",
     "static/media/section-one-stars-1.png": "./static/media/section-one-stars-1.10496b57b8fead3cdbac.png",
     "static/media/egypt.png": "./static/media/egypt.4457954d7aaeff193d7c.png",
     "index.html": "./index.html",
-    "main.81a0e390.css.map": "./static/css/main.81a0e390.css.map",
-    "main.329252ac.js.map": "./static/js/main.329252ac.js.map"
+    "main.eb3dfe66.css.map": "./static/css/main.eb3dfe66.css.map",
+    "main.0f912639.js.map": "./static/js/main.0f912639.js.map"
   },
   "entrypoints": [
-    "static/css/main.81a0e390.css",
-    "static/js/main.329252ac.js"
+    "static/css/main.eb3dfe66.css",
+    "static/js/main.0f912639.js"
   ]
 }
