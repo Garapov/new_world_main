@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.eb3dfe66.css",
-    "main.js": "./static/js/main.28b5ab94.js",
+    "main.css": "./static/css/main.aad4726c.css",
+    "main.js": "./static/js/main.ca495147.js",
     "static/media/8k_earth_clouds.jpg": "./static/media/8k_earth_clouds.08fcd80007fae8fc7170.jpg",
+    "static/media/section-three-IN-info.jpeg": "./static/media/section-three-IN-info.dff1666a28d4f4578573.jpeg",
     "static/media/map.png": "./static/media/map.f63a5d10a14771196295.png",
+    "static/media/section-three-EG-info.jpg": "./static/media/section-three-EG-info.40251e31a8ac30c8918e.jpg",
+    "static/media/section-three-UAE-info.jpeg": "./static/media/section-three-UAE-info.2421daa3b0572d280053.jpeg",
+    "static/media/section-three-TS-info.jpg": "./static/media/section-three-TS-info.8b45f8a4048fb9f3d6df.jpg",
+    "static/media/section-three-KB-info.jpg": "./static/media/section-three-KB-info.9840a995fda0a7c4b698.jpg",
     "static/media/8k_earth_specular_map.jpg": "./static/media/8k_earth_specular_map.7b4efa59933b470e3776.jpg",
     "static/media/section-three-CH-info.jpg": "./static/media/section-three-CH-info.94790acedad11fa3fa38.jpg",
     "static/media/section-three-EG.jpg": "./static/media/section-three-EG.c3a91adf0e663cf91a6a.jpg",
@@ -35,11 +40,11 @@
     "static/media/section-one-stars-1.png": "./static/media/section-one-stars-1.10496b57b8fead3cdbac.png",
     "static/media/egypt.png": "./static/media/egypt.4457954d7aaeff193d7c.png",
     "index.html": "./index.html",
-    "main.eb3dfe66.css.map": "./static/css/main.eb3dfe66.css.map",
-    "main.28b5ab94.js.map": "./static/js/main.28b5ab94.js.map"
+    "main.aad4726c.css.map": "./static/css/main.aad4726c.css.map",
+    "main.ca495147.js.map": "./static/js/main.ca495147.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb3dfe66.css",
-    "static/js/main.28b5ab94.js"
+    "static/css/main.aad4726c.css",
+    "static/js/main.ca495147.js"
   ]
 }
