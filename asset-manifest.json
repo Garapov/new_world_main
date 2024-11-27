@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.aad4726c.css",
-    "main.js": "./static/js/main.ca495147.js",
+    "main.css": "./static/css/main.92ed0e4d.css",
+    "main.js": "./static/js/main.bf9bd294.js",
     "static/media/8k_earth_clouds.jpg": "./static/media/8k_earth_clouds.08fcd80007fae8fc7170.jpg",
     "static/media/section-three-IN-info.jpeg": "./static/media/section-three-IN-info.dff1666a28d4f4578573.jpeg",
     "static/media/map.png": "./static/media/map.f63a5d10a14771196295.png",
@@ -40,11 +40,11 @@
     "static/media/section-one-stars-1.png": "./static/media/section-one-stars-1.10496b57b8fead3cdbac.png",
     "static/media/egypt.png": "./static/media/egypt.4457954d7aaeff193d7c.png",
     "index.html": "./index.html",
-    "main.aad4726c.css.map": "./static/css/main.aad4726c.css.map",
-    "main.ca495147.js.map": "./static/js/main.ca495147.js.map"
+    "main.92ed0e4d.css.map": "./static/css/main.92ed0e4d.css.map",
+    "main.bf9bd294.js.map": "./static/js/main.bf9bd294.js.map"
   },
   "entrypoints": [
-    "static/css/main.aad4726c.css",
-    "static/js/main.ca495147.js"
+    "static/css/main.92ed0e4d.css",
+    "static/js/main.bf9bd294.js"
   ]
 }
