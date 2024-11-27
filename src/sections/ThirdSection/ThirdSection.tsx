@@ -25,7 +25,7 @@ const countries = [
   { img: CS, name: "сербия" },
   { img: CN, name: "китай" },
   { img: TN, name: "тунис" },
-  { img: KB, name: "Республика Куба" },
+  { img: KB, name: "Куба" },
   { img: EG, name: "египет" },
   { img: UAE, name: "ОАЭ" },
   { img: IND, name: "индонезия" },

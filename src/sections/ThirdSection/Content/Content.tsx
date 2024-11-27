@@ -178,7 +178,9 @@ export const Content = observer(() => {
         </div>
         <div className={styles.info_img_block}>
           {/* <Hint/> */}
-          <img className={styles.info_img} src={contentTexts.img} alt='country' key={contentTexts.img} />
+          <div className={styles.info_img_block_in}>
+            <img className={styles.info_img} src={contentTexts.img} alt='country' key={contentTexts.img} />
+          </div>
           <div className={styles.buttons}>
 
             <a href={contentTexts.page} target='_blank' rel="noreferrer" className={styles.info_btn + " " + padding} onClick={() => { metrikaPage() }}>
