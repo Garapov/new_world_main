@@ -94,11 +94,11 @@ export const Modal = observer(() => {
       case (modal.BRAZIL):
         return 'https://vk.com/video-24199209_456302864?t=47s'
       case (modal.TUNIS):
-        return 'https://vk.com/video-24199209_456302864?t=47s'
+        return 'https://vkvideo.ru/video-24199209_456311327'
       case (modal.KUBA):
-        return 'https://vk.com/video-24199209_456302864?t=47s'
+        return 'https://vkvideo.ru/video-24199209_456311485'
       case (modal.EGYPT):
-        return 'https://vk.com/video-24199209_456302864?t=47s'
+        return 'https://vkvideo.ru/video-24199209_456311670'
       case (modal.UAE):
         return 'https://vk.com/video-24199209_456302864?t=47s'
       case (modal.INDONESIA):
