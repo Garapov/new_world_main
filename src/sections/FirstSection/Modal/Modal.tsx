@@ -26,37 +26,6 @@ export const Modal = observer(() => {
     e.stopPropagation()
   }
 
-  const title = useMemo((): string => {
-    let modalTypeCheck = State.getModal()
-    if (modalTypeCheck === modal.NO) {
-      modalTypeCheck = State.getModalPrev()
-    }
-    switch (modalTypeCheck) {
-      case (modal.CHINA):
-        return 'китай'
-      case (modal.INDIA):
-        return 'Индия'
-      case (modal.BELARUS):
-        return 'Республика Беларусь'
-      case (modal.SERBIA):
-        return 'Сербия'
-      case (modal.SOUTH_AFRICA):
-        return 'ЮАР'
-      case (modal.BRAZIL):
-        return 'Бразилия'
-      case (modal.TUNIS):
-        return 'Тунис'
-      case (modal.KUBA):
-        return 'Куба'
-      case (modal.EGYPT):
-        return 'Египет'
-      case (modal.UAE):
-        return 'ОАЭ'
-      case (modal.INDONESIA):
-        return 'Индонезия'
-    }
-  }, [modalType])
-
   const content = useMemo((): string => {
     let modalTypeCheck = State.getModal()
 
@@ -73,7 +42,6 @@ export const Modal = observer(() => {
       return null
     }
   }, [modalType])
-
 
   const link = useMemo((): string => {
     let modalTypeCheck = State.getModal()
@@ -137,7 +105,6 @@ export const Modal = observer(() => {
     }
   }, [modalType])
 
-
   const checkOS = platform.os.family.includes('OS') || platform.os.family.includes('Mac') || platform.name.includes('Safari') || platform.name.includes('OS')
   const padding = checkOS ? '' : ''
 
@@ -151,27 +118,61 @@ export const Modal = observer(() => {
     ym(95340418, 'reachGoal', 'statya')
   }
 
+  const getModalTitle = (modalType: modal): string => {
+    switch (modalType) {
+      case modal.CHINA:
+        return 'китай';
+      case modal.INDIA:
+        return 'Индия';
+      case modal.BELARUS:
+        return 'Республика Беларусь';
+      case modal.SERBIA:
+        return 'Сербия';
+      case modal.SOUTH_AFRICA:
+        return 'ЮАР';
+      case modal.BRAZIL:
+        return 'Бразилия';
+      case modal.TUNIS:
+        return 'Тунис';
+      case modal.KUBA:
+        return 'Куба';
+      case modal.EGYPT:
+        return 'Египет';
+      case modal.UAE:
+        return 'ОАЭ';
+      case modal.INDONESIA:
+        return 'Индонезия';
+      default:
+        return '';
+    }
+  };
 
   return (
     <div className={styles.modal_block + ' ' + activeStyle}>
       <button className={styles.btn_back + ' ' + padding} onClick={onClickBack}>Назад</button>
       <div className={styles.modal} onClick={onClickModal}>
-        <p className={styles.title}>{title}</p>
-        <p className={styles.text}>{content}</p>
-        <div className={styles.button_block}>
-
-          <a href={page} className={styles.button + ' ' + padding} target='_blank' rel="noreferrer" onClick={() => { metrikaPage() }}>
-            Узнать больше о стране
-          </a>
-
-
-          <a href={link} className={styles.button + ' ' + padding} target='_blank' rel="noreferrer" onClick={() => { metrikaFilm() }}>
-            Смотреть фильм
-          </a>
-
-        </div>
+        {Object.values(modal).map((modalItem) => {
+          if (modalItem !== modal.NO) {
+            const isActive = modalItem === State.getModal();
+            return (
+              <div key={modalItem} className={`${styles.modal_section} ${isActive ? styles.active_section : ''}`}>
+                <p className={styles.title}>{getModalTitle(modalItem)}</p>
+                <p className={styles.text}>{content}</p>
+                <div className={styles.button_block}>
+                  <a href={page} className={styles.button + ' ' + padding} target='_blank' rel="noreferrer" onClick={() => { metrikaPage() }}>
+                    Узнать больше о стране
+                  </a>
+                  <a href={link} className={styles.button + ' ' + padding} target='_blank' rel="noreferrer" onClick={() => { metrikaFilm() }}>
+                    Смотреть фильм
+                  </a>
+                </div>
+              </div>
+            );
+          }
+          return null;
+        })}
       </div>
-    </div >
+    </div>
   )
 });
 

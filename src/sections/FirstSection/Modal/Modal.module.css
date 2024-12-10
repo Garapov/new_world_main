@@ -46,6 +46,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #252525;
+  transform: translateZ(0);
 
   line-height: 50px;
   margin-bottom: 5%;
@@ -142,6 +143,14 @@
   transition: all ease 0.3s;
   background: #313154;
   color: #FFFFFF;
+}
+
+.modal_section {
+  display: none;
+}
+
+.active_section {
+  display: block;
 }
 
 @media screen and (max-width: 1300px) {
